@@ -5,8 +5,8 @@ import time
 
 options = {
     'proxy': {
-        'http': 'http://fa393d597a413db3ac0f__cr.hk:e1b07fba707201aa@gw.dataimpulse.com:10006',
-        'https': 'https://fa393d597a413db3ac0f__cr.hk:e1b07fba707201aa@gw.dataimpulse.com:10006',
+        'http': 'http://fa393d597a413db3ac0f__cr.hk:e1b07fba707201aa@gw.dataimpulse.com:10016',
+        'https': 'https://fa393d597a413db3ac0f__cr.hk:e1b07fba707201aa@gw.dataimpulse.com:10016',
         'no_proxy': 'localhost,127.0.0.1'
     }
 }
@@ -26,7 +26,7 @@ print(driver.page_source)
 
 time.sleep(1)
 
-driver.get("https://sepolia-faucet.pk910.de/#/mine/16548c5f-2cca-41f9-9fdd-4e337fde92b9")
+driver.get("https://sepolia-faucet.pk910.de/#/mine/8f8b9e98-a109-4b15-85da-d0fd683b1fe4")
 time.sleep(50)
 
 div_element = driver.find_element(By.CLASS_NAME, "col-3")
