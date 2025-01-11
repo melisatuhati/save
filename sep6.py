@@ -5,8 +5,8 @@ import time
 
 options = {
     'proxy': {
-        'http': 'https://sepolia-faucet.pk910.de/#/mine/54113447-ba90-419c-81f8-488ac836909b',
-        'https': 'https://sepolia-faucet.pk910.de/#/mine/54113447-ba90-419c-81f8-488ac836909b',
+        'http': 'http://b25c99f83a18958c69bd__tw.fr:b12da4e3f444fcc0@gw.dataimpulse.com:10006',
+        'https': 'http://b25c99f83a18958c69bd__tw.fr:b12da4e3f444fcc0@gw.dataimpulse.com:10006',
         'no_proxy': 'localhost,127.0.0.1'
     }
 }
