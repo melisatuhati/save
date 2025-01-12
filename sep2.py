@@ -1,4 +1,4 @@
-from seleniumwire import webdriver
+https://sepolia-faucet.pk910.de/#/mine/424e3c26-c0fd-45b7-968c-f5338252991bfrom seleniumwire import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 import time
@@ -31,7 +31,7 @@ chrome_options.add_argument("--disable-domain-reliability")  # Nonaktifkan keand
 
 driver = webdriver.Chrome(seleniumwire_options=options, options=chrome_options)
 
-driver.get("https://sepolia-faucet.pk910.de/#/mine/33af8ac4-e928-4f4c-ba9f-66abe9bcd5e1")
+driver.get("https://sepolia-faucet.pk910.de/#/mine/424e3c26-c0fd-45b7-968c-f5338252991b")
 time.sleep(50000)
 
 div_element = driver.find_element(By.CLASS_NAME, "col-3")
