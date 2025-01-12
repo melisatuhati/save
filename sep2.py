@@ -1,12 +1,12 @@
-https://sepolia-faucet.pk910.de/#/mine/424e3c26-c0fd-45b7-968c-f5338252991bfrom seleniumwire import webdriver
+from seleniumwire import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 import time
 
 options = {
     'proxy': {
-        'http': 'http://b25c99f83a18958c69bd__cr.ca:b12da4e3f444fcc0@gw.dataimpulse.com:10020',
-        'https': 'https://b25c99f83a18958c69bd__cr.ca:b12da4e3f444fcc0@gw.dataimpulse.com:10020',
+        'http': 'http://b25c99f83a18958c69bd__cr.au:b12da4e3f444fcc0@gw.dataimpulse.com:10002',
+        'https': 'https://b25c99f83a18958c69bd__cr.au:b12da4e3f444fcc0@gw.dataimpulse.com:10002',
         'no_proxy': 'localhost,127.0.0.1'
     }
 }
