@@ -1,4 +1,4 @@
-https://sepolia-faucet.pk910.de/#/mine/f178308b-20a6-4049-902a-33de616a8b65from seleniumwire import webdriver
+from seleniumwire import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 import time
