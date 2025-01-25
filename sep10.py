@@ -1,3 +1,4 @@
+
 from seleniumwire import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
@@ -5,8 +6,8 @@ import time
 
 options = {
     'proxy': {
-        'http': 'http://8be60bbc34e0d85692c5__cr.us:877e81a0d7646f3c@gw.dataimpulse.com:10110',
-        'https': 'https://8be60bbc34e0d85692c5__cr.us:877e81a0d7646f3c@gw.dataimpulse.com:10110',
+        'http': 'http://8be60bbc34e0d85692c5__cr.tw:877e81a0d7646f3c@gw.dataimpulse.com:10111',
+        'https': 'https://8be60bbc34e0d85692c5__cr.tw:877e81a0d7646f3c@gw.dataimpulse.com:10111',
         'no_proxy': 'localhost,127.0.0.1'
     }
 }
