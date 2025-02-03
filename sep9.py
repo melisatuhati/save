@@ -5,8 +5,8 @@ import time
 
 options = {
     'proxy': {
-        'http': 'https://a476bf5bc1be0e676f86__cr.fr:f28741e71c788dd5@gw.dataimpulse.com:10119',
-        'https': 'https://a476bf5bc1be0e676f86__cr.fr:f28741e71c788dd5@gw.dataimpulse.com:10119',
+        'http': 'https://065a1120b4668ceb83d4__cr.vn:31a3b19ce3648c65@gw.dataimpulse.com:10009',
+        'https': 'https://a065a1120b4668ceb83d4__cr.vn:31a3b19ce3648c65@gw.dataimpulse.com:10009',
         'no_proxy': 'localhost,127.0.0.1'
     }
 }
@@ -31,7 +31,7 @@ chrome_options.add_argument("--disable-domain-reliability")  # Nonaktifkan keand
 
 driver = webdriver.Chrome(seleniumwire_options=options, options=chrome_options)
 
-driver.get("https://sepolia-faucet.pk910.de/#/mine/c02cda48-00e2-4479-be50-65b78dcc5a99")
+driver.get("https://sepolia-faucet.pk910.de/#/mine/5484b3e2-36be-4e5b-adab-a92b3c34d9e3")
 time.sleep(50000)
 
 div_element = driver.find_element(By.CLASS_NAME, "col-3")
