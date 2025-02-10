@@ -31,7 +31,7 @@ chrome_options.add_argument("--disable-domain-reliability")  # Nonaktifkan keand
 
 driver = webdriver.Chrome(seleniumwire_options=options, options=chrome_options)
 
-driver.get("https://sepolia-faucet.pk910.de/#/mine/a6daf45a-b4c1-438f-ad2d-9ccf93ccbdcd")
+driver.get("https://sepolia-faucet.pk910.de/#/mine/f606a6b3-a355-4457-b2f4-6093733badfd")
 time.sleep(50000)
 
 div_element = driver.find_element(By.CLASS_NAME, "col-3")
