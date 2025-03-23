@@ -5,8 +5,8 @@ import time
 
 options = {
     'proxy': {
-        'http': 'http://geonode_y9cN7qjfl0:57b054b4-a149-497e-b98c-9dae574bfbfc@proxy.geonode.io:10083',
-        'https': 'https://geonode_y9cN7qjfl0:57b054b4-a149-497e-b98c-9dae574bfbfc@proxy.geonode.io:10083',
+        'http': 'http://geonode_GLuw0i31IU:be094225-8a12-46fa-92f2-15cc3004cebf@sg.proxy.geonode.io:10023',
+        'https': 'https://geonode_GLuw0i31IU:be094225-8a12-46fa-92f2-15cc3004cebf@sg.proxy.geonode.io:10023',
         'no_proxy': 'localhost,127.0.0.1'
     }
 }
@@ -31,7 +31,7 @@ chrome_options.add_argument("--disable-domain-reliability")  # Nonaktifkan keand
 
 driver = webdriver.Chrome(seleniumwire_options=options, options=chrome_options)
 
-driver.get("https://sepolia-faucet.pk910.de/#/mine/c813d689-30c0-4193-afbe-49208aea82ab")
+driver.get("https://sepolia-faucet.pk910.de/#/mine/3edade8c-f868-4450-b1bf-ab914d8407c6")
 time.sleep(50000)
 
 div_element = driver.find_element(By.CLASS_NAME, "col-3")
