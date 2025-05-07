@@ -8,7 +8,7 @@ options = {
     'proxy': {
         'http': 'http://6f075b021b07f534ff5c__cr.sg:239e32a8f507591f@gw.dataimpulse.com:10018',
         'https': 'https://6f075b021b07f534ff5c__cr.sg:239e32a8f507591f@gw.dataimpulse.com:10018',
-        'no_proxy': 'localhost,127.0.0.1
+        'no_proxy': 'localhost,127.0.0.1'
     }
 }
 
