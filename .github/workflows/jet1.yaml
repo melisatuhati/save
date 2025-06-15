@@ -1,0 +1,15 @@
+name: Check vCPU on BuildJett
+
+on: push
+
+jobs:
+  check_cpu:
+    runs-on: buildjet-4vcpu-ubuntu-2204 # Ganti dengan runner BuildJet yang ingin Anda cek
+
+    steps:
+    - name: Checkout code
+      uses: actions/cache@v3
+
+    - name: Works
+      run: |
+        lscpu
